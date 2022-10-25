@@ -1,8 +1,6 @@
 body{
     background-color: black;
     color: white;
-    margin: 5px;
-    padding: 0;
 }
 
 header, footer{
@@ -11,8 +9,16 @@ header, footer{
 
 div{
     display:inline-block;
+    
+ 
 }
 
+
 img{
-    max-width: 200px;
+    max-width: 12.5em;
+}
+
+section{
+    padding: 0.5em;
+    
 }
