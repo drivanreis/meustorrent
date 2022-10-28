@@ -9,8 +9,6 @@ header, footer{
 
 div{
     display:inline-block;
-    
- 
 }
 
 
@@ -20,5 +18,9 @@ img{
 
 section{
     padding: 0.5em;
-    
+}
+
+p{
+    color: yellow;
+    font-size: 1.2em;
 }
