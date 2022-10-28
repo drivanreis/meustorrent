@@ -3,7 +3,7 @@ body{
     color: white;
 }
 
-header, section, footer{
+header, footer{
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ h1{
 }
 
 img{
-    width: 24%;
+    width: 25%;
 }
 
 section{
