@@ -1,9 +1,17 @@
-body{
-    background-color: black;
+html, body{
+    background-color: white;
     color: white;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
-header, section, footer{
+header, footer{
+    text-align: center;
+}
+
+section{
+    padding: 0.25em;
     text-align: center;
 }
 
@@ -11,15 +19,28 @@ h1{
     font-size:3em;
 }
 
-img{
-    width: 24%;
-}
-
-section{
-    padding: 0.5em;
-}
-
 p{
     color: yellow;
     font-size: 1.2em;
+}
+
+div{
+    position: relative;
+    display: inline-block;
+    width: 24%;
+}
+
+img{
+    width: 100%;
+}
+
+figcaption{
+    position: absolute;
+    text-align: center;
+    top: 3px;
+    left: 3px;
+    width: 98%;
+    font-size: 1.2em;
+    background-color: whitesmoke;
+    border-radius: 7px;
 }
