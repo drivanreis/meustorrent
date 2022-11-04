@@ -1,5 +1,5 @@
 html, body{
-    background-color: white;
+    background-color: black;
     color: white;
     margin: 0;
     border: 0;
@@ -41,6 +41,7 @@ figcaption{
     left: 3px;
     width: 98%;
     font-size: 1.2em;
-    background-color: whitesmoke;
+    background-color: transparent;
     border-radius: 7px;
+    color: transparent;
 }
